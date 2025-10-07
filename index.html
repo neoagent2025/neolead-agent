@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoLead – AI Lead Generator dla LinkedIn</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background-color: #0A56A7; color: #fff; padding: 40px 20px; text-align: center; }
+        header h1 { margin: 0 0 10px; font-size: 32px; }
+        header p { font-size: 18px; margin: 0; }
+        .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+        .features ul { list-style-type: none; padding: 0; }
+        .features li { margin-bottom: 10px; padding-left: 25px; position: relative; }
+        .features li:before { content: "✔"; position: absolute; left: 0; color: #0A56A7; }
+        .pricing-table { display: flex; flex-wrap: wrap; justify-content: space-between; }
+        .plan { border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 30%; margin-bottom: 20px; text-align: center; }
+        .plan h3 { margin-top: 0; color: #0A56A7; }
+        .plan ul { list-style-type: none; padding: 0; }
+        .plan li { margin-bottom: 8px; }
+        .cta, .payment { text-align: center; margin-top: 40px; }
+        .button { background-color: #0A56A7; color: #fff; border: none; padding: 15px 25px; font-size: 18px; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; }
+        .button:hover { background-color: #083f78; }
+        footer { background-color: #f5f5f5; padding: 20px; text-align: center; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NeoLead</h1>
+        <p>AI agent do generowania leadów B2B na LinkedIn – testowany na rynkach Polski i Bułgarii</p>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>O usłudze</h2>
+            <p>NeoLead jest autonomicznym agentem AI do wyszukiwania i kwalifikacji potencjalnych klientów na LinkedIn, personalizowania komunikacji i prowadzenia testów A/B. Idealny dla firm B2B, które chcą skalować sprzedaż bez spamu i naruszania regulaminów.</p>
+        </section>
+        <section class="features">
+            <h2>Kluczowe funkcje</h2>
+            <ul>
+                <li>Automatyczna identyfikacja i kwalifikacja leadów w LinkedIn</li>
+                <li>Personalizowane wiadomości w językach polskim, bułgarskim i angielskim</li>
+                <li>Wbudowane testy A/B i raporty z wynikami</li>
+                <li>Moduł self‑selling: tworzenie mini‑landingów i postów promocyjnych</li>
+                <li>Pełna zgodność z LinkedIn ToS oraz RODO</li>
+            </ul>
+        </section>
+        <section class="pricing">
+            <h2>Pakiety subskrypcyjne</h2>
+            <div class="pricing-table">
+                <div class="plan">
+                    <h3>Basic</h3>
+                    <p><strong>199 PLN / miesiąc</strong></p>
+                    <ul>
+                        <li>30 leadów miesięcznie</li>
+                        <li>1 ICP</li>
+                        <li>Podstawowe raporty</li>
+                    </ul>
+                    <a href="YOUR_STRIPE_CHECKOUT_LINK_BASIC" class="button">Subskrybuj Basic</a>
+                </div>
+                <div class="plan">
+                    <h3>Pro</h3>
+                    <p><strong>349 PLN / miesiąc</strong></p>
+                    <ul>
+                        <li>60 leadów miesięcznie</li>
+                        <li>2 ICP</li>
+                        <li>Zaawansowane raporty i rekomendacje</li>
+                    </ul>
+                    <a href="YOUR_STRIPE_CHECKOUT_LINK_PRO" class="button">Subskrybuj Pro</a>
+                </div>
+                <div class="plan">
+                    <h3>Enterprise</h3>
+                    <p><strong>Indywidualna wycena</strong></p>
+                    <ul>
+                        <li>Dowolna liczba leadów</li>
+                        <li>Dostosowane workflow i integracje</li>
+                        <li>Dedykowane wsparcie</li>
+                    </ul>
+                    <a href="mailto:kontakt@neolead.pl" class="button">Skontaktuj się</a>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h2>Wypróbuj za darmo</h2>
+            <p>Odbierz 3 testowe leady za darmo. Wybierz rynek: Polska lub Bułgaria.</p>
+            <a href="mailto:kontakt@neolead.pl?subject=Darmowy%20test" class="button">Zamów test</a>
+        </section>
+    </div>
+    <footer>
+        © 2025 NeoLead. Wszystkie prawa zastrzeżone. JDG w Polsce | <a href="#" onclick="alert('Polityka prywatności dostępna po dostosowaniu'); return false;">Polityka prywatności</a>
+    </footer>
+</body>
+</html>
